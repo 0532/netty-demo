@@ -1,5 +1,6 @@
 package servergate.serverstart;
 
+import deposit.AbstractTxnProcessor;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ExceptionEvent;
 import org.jboss.netty.channel.MessageEvent;
@@ -11,7 +12,6 @@ import servergate.enums.TxnRtnCode;
 import utils.MD5Helper;
 import utils.PropertyManager;
 import utils.StringPad;
-import view.deposit.AbstractTxnProcessor;
 
 /**
  * Created by Lichao.W At 2015/7/13 15:51
